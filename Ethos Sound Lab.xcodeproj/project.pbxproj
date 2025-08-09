@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EE417AF22E480AE40056E6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE417ADC2E480AE20056E6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE417AE32E480AE20056E6F1;
+			remoteInfo = "Ethos Sound Lab";
+		};
+		EE417AFC2E480AE40056E6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE417ADC2E480AE20056E6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE417AE32E480AE20056E6F1;
+			remoteInfo = "Ethos Sound Lab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE417AE42E480AE20056E6F1 /* Ethos Sound Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ethos Sound Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE417AF12E480AE40056E6F1 /* Ethos Sound LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethos Sound LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE417AFB2E480AE40056E6F1 /* Ethos Sound LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethos Sound LabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EE417B732E4A3CA90056E6F1 /* Exceptions for "Ethos Sound Lab" folder in "Ethos Sound Lab" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Untitled.swift,
+			);
+			target = EE417AE32E480AE20056E6F1 /* Ethos Sound Lab */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EE417AE62E480AE20056E6F1 /* Ethos Sound Lab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EE417B732E4A3CA90056E6F1 /* Exceptions for "Ethos Sound Lab" folder in "Ethos Sound Lab" target */,
+			);
+			path = "Ethos Sound Lab";
+			sourceTree = "<group>";
+		};
+		EE417AF42E480AE40056E6F1 /* Ethos Sound LabTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ethos Sound LabTests";
+			sourceTree = "<group>";
+		};
+		EE417AFE2E480AE40056E6F1 /* Ethos Sound LabUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ethos Sound LabUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE417AE12E480AE20056E6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE417AEE2E480AE40056E6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE417AF82E480AE40056E6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE417ADB2E480AE20056E6F1 = {
+			isa = PBXGroup;
+			children = (
+				EE417AE62E480AE20056E6F1 /* Ethos Sound Lab */,
+				EE417AF42E480AE40056E6F1 /* Ethos Sound LabTests */,
+				EE417AFE2E480AE40056E6F1 /* Ethos Sound LabUITests */,
+				EE417AE52E480AE20056E6F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE417AE52E480AE20056E6F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE417AE42E480AE20056E6F1 /* Ethos Sound Lab.app */,
+				EE417AF12E480AE40056E6F1 /* Ethos Sound LabTests.xctest */,
+				EE417AFB2E480AE40056E6F1 /* Ethos Sound LabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE417AE32E480AE20056E6F1 /* Ethos Sound Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE417B052E480AE40056E6F1 /* Build configuration list for PBXNativeTarget "Ethos Sound Lab" */;
+			buildPhases = (
+				EE417AE02E480AE20056E6F1 /* Sources */,
+				EE417AE12E480AE20056E6F1 /* Frameworks */,
+				EE417AE22E480AE20056E6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EE417AE62E480AE20056E6F1 /* Ethos Sound Lab */,
+			);
+			name = "Ethos Sound Lab";
+			packageProductDependencies = (
+			);
+			productName = "Ethos Sound Lab";
+			productReference = EE417AE42E480AE20056E6F1 /* Ethos Sound Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE417AF02E480AE40056E6F1 /* Ethos Sound LabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE417B082E480AE40056E6F1 /* Build configuration list for PBXNativeTarget "Ethos Sound LabTests" */;
+			buildPhases = (
+				EE417AED2E480AE40056E6F1 /* Sources */,
+				EE417AEE2E480AE40056E6F1 /* Frameworks */,
+				EE417AEF2E480AE40056E6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE417AF32E480AE40056E6F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE417AF42E480AE40056E6F1 /* Ethos Sound LabTests */,
+			);
+			name = "Ethos Sound LabTests";
+			packageProductDependencies = (
+			);
+			productName = "Ethos Sound LabTests";
+			productReference = EE417AF12E480AE40056E6F1 /* Ethos Sound LabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE417AFA2E480AE40056E6F1 /* Ethos Sound LabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE417B0B2E480AE40056E6F1 /* Build configuration list for PBXNativeTarget "Ethos Sound LabUITests" */;
+			buildPhases = (
+				EE417AF72E480AE40056E6F1 /* Sources */,
+				EE417AF82E480AE40056E6F1 /* Frameworks */,
+				EE417AF92E480AE40056E6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE417AFD2E480AE40056E6F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE417AFE2E480AE40056E6F1 /* Ethos Sound LabUITests */,
+			);
+			name = "Ethos Sound LabUITests";
+			packageProductDependencies = (
+			);
+			productName = "Ethos Sound LabUITests";
+			productReference = EE417AFB2E480AE40056E6F1 /* Ethos Sound LabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE417ADC2E480AE20056E6F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					EE417AE32E480AE20056E6F1 = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+					EE417AF02E480AE40056E6F1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EE417AE32E480AE20056E6F1;
+					};
+					EE417AFA2E480AE40056E6F1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EE417AE32E480AE20056E6F1;
+					};
+				};
+			};
+			buildConfigurationList = EE417ADF2E480AE20056E6F1 /* Build configuration list for PBXProject "Ethos Sound Lab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE417ADB2E480AE20056E6F1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EE417AE52E480AE20056E6F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE417AE32E480AE20056E6F1 /* Ethos Sound Lab */,
+				EE417AF02E480AE40056E6F1 /* Ethos Sound LabTests */,
+				EE417AFA2E480AE40056E6F1 /* Ethos Sound LabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE417AE22E480AE20056E6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE417AEF2E480AE40056E6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE417AF92E480AE40056E6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE417AE02E480AE20056E6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE417AED2E480AE40056E6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE417AF72E480AE40056E6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE417AF32E480AE40056E6F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE417AE32E480AE20056E6F1 /* Ethos Sound Lab */;
+			targetProxy = EE417AF22E480AE40056E6F1 /* PBXContainerItemProxy */;
+		};
+		EE417AFD2E480AE40056E6F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE417AE32E480AE20056E6F1 /* Ethos Sound Lab */;
+			targetProxy = EE417AFC2E480AE40056E6F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE417B032E480AE40056E6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3ZLAQWZPCW;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE417B042E480AE40056E6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3ZLAQWZPCW;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE417B062E480AE40056E6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZLAQWZPCW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = " We use your microphone for recording, mixing, and tuning audio.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethossound.Ethos-Sound-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ethos Sound Lab/Ethos Sound Lab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE417B072E480AE40056E6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZLAQWZPCW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = " We use your microphone for recording, mixing, and tuning audio.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethossound.Ethos-Sound-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ethos Sound Lab/Ethos Sound Lab-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE417B092E480AE40056E6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZLAQWZPCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethossound.Ethos-Sound-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethos Sound Lab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ethos Sound Lab";
+			};
+			name = Debug;
+		};
+		EE417B0A2E480AE40056E6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZLAQWZPCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethossound.Ethos-Sound-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethos Sound Lab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ethos Sound Lab";
+			};
+			name = Release;
+		};
+		EE417B0C2E480AE40056E6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZLAQWZPCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethossound.Ethos-Sound-LabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ethos Sound Lab";
+			};
+			name = Debug;
+		};
+		EE417B0D2E480AE40056E6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZLAQWZPCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethossound.Ethos-Sound-LabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ethos Sound Lab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE417ADF2E480AE20056E6F1 /* Build configuration list for PBXProject "Ethos Sound Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE417B032E480AE40056E6F1 /* Debug */,
+				EE417B042E480AE40056E6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE417B052E480AE40056E6F1 /* Build configuration list for PBXNativeTarget "Ethos Sound Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE417B062E480AE40056E6F1 /* Debug */,
+				EE417B072E480AE40056E6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE417B082E480AE40056E6F1 /* Build configuration list for PBXNativeTarget "Ethos Sound LabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE417B092E480AE40056E6F1 /* Debug */,
+				EE417B0A2E480AE40056E6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE417B0B2E480AE40056E6F1 /* Build configuration list for PBXNativeTarget "Ethos Sound LabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE417B0C2E480AE40056E6F1 /* Debug */,
+				EE417B0D2E480AE40056E6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE417ADC2E480AE20056E6F1 /* Project object */;
+}
