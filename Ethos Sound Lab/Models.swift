@@ -62,4 +62,5 @@ public struct TimelineClip: Identifiable, Hashable, Codable, Sendable {
 // Make sure this exists in ONE place only.
 public typealias TrackRegion = TimelineClip
 
-public typealias TrackModel = Track
+public typealias TimelineRegion = TimelineClip
+public typealias TrackModel = StudioTrack
