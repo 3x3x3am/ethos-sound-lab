@@ -61,3 +61,5 @@ public struct TimelineClip: Identifiable, Hashable, Codable, Sendable {
 // If you previously referenced `TrackRegion`, this keeps old code compiling.
 // Make sure this exists in ONE place only.
 public typealias TrackRegion = TimelineClip
+
+public typealias TrackModel = Track
