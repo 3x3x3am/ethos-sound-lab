@@ -1,6 +1,8 @@
 import Foundation
 import SwiftUI
 
+
+#if false
 struct TrackRegion: Identifiable, Hashable {
     let id = UUID()
     var title: String
@@ -36,5 +38,7 @@ final class ProjectStore: ObservableObject {
 
     func addEmptyTrack() {
         tracks.append(Track(name: "New Track", color: .orange))
-    }
+
+   // #endif}
 }
+    #endif
